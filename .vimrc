@@ -98,10 +98,12 @@ endif
 
 " ADDITIONAL CUSTOMIZATION
 " danielmiessler.com
-inoremap jk <ESC> "" map escape key to jk
+" map escape key to j k
+inoremap jk <ESC> 
 " change leader key (activation for shortcuts) from \ to spacebar
 let mapleader = "\<Space>"
 filetype plugin indent on
 syntax on
 set encoding=utf-8
+
 
